@@ -1,0 +1,65 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28010.2046
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "QRCode Generator", "QRCode Generator.vbproj", "{58BA6B81-C8CA-4834-9C2D-6176D938DC73}"
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "imgCompressor", "..\..\imgCompressor\imgCompressor\imgCompressor\imgCompressor.vbproj", "{C801192F-DAC3-475B-A279-5E63799D17FF}"
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "Enhanced Process Blocker", "..\Enhanced Process Blocker\Enhanced Process Blocker.vbproj", "{BF287B8B-559D-4B5D-95AD-1238F51FBCEB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|Any CPU = Release|Any CPU
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{58BA6B81-C8CA-4834-9C2D-6176D938DC73}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{58BA6B81-C8CA-4834-9C2D-6176D938DC73}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{58BA6B81-C8CA-4834-9C2D-6176D938DC73}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{58BA6B81-C8CA-4834-9C2D-6176D938DC73}.Debug|x64.Build.0 = Debug|Any CPU
+		{58BA6B81-C8CA-4834-9C2D-6176D938DC73}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{58BA6B81-C8CA-4834-9C2D-6176D938DC73}.Debug|x86.Build.0 = Debug|Any CPU
+		{58BA6B81-C8CA-4834-9C2D-6176D938DC73}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{58BA6B81-C8CA-4834-9C2D-6176D938DC73}.Release|Any CPU.Build.0 = Release|Any CPU
+		{58BA6B81-C8CA-4834-9C2D-6176D938DC73}.Release|x64.ActiveCfg = Release|Any CPU
+		{58BA6B81-C8CA-4834-9C2D-6176D938DC73}.Release|x64.Build.0 = Release|Any CPU
+		{58BA6B81-C8CA-4834-9C2D-6176D938DC73}.Release|x86.ActiveCfg = Release|Any CPU
+		{58BA6B81-C8CA-4834-9C2D-6176D938DC73}.Release|x86.Build.0 = Release|Any CPU
+		{C801192F-DAC3-475B-A279-5E63799D17FF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C801192F-DAC3-475B-A279-5E63799D17FF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C801192F-DAC3-475B-A279-5E63799D17FF}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{C801192F-DAC3-475B-A279-5E63799D17FF}.Debug|x64.Build.0 = Debug|Any CPU
+		{C801192F-DAC3-475B-A279-5E63799D17FF}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{C801192F-DAC3-475B-A279-5E63799D17FF}.Debug|x86.Build.0 = Debug|Any CPU
+		{C801192F-DAC3-475B-A279-5E63799D17FF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C801192F-DAC3-475B-A279-5E63799D17FF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C801192F-DAC3-475B-A279-5E63799D17FF}.Release|x64.ActiveCfg = Release|Any CPU
+		{C801192F-DAC3-475B-A279-5E63799D17FF}.Release|x64.Build.0 = Release|Any CPU
+		{C801192F-DAC3-475B-A279-5E63799D17FF}.Release|x86.ActiveCfg = Release|Any CPU
+		{C801192F-DAC3-475B-A279-5E63799D17FF}.Release|x86.Build.0 = Release|Any CPU
+		{BF287B8B-559D-4B5D-95AD-1238F51FBCEB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BF287B8B-559D-4B5D-95AD-1238F51FBCEB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BF287B8B-559D-4B5D-95AD-1238F51FBCEB}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{BF287B8B-559D-4B5D-95AD-1238F51FBCEB}.Debug|x64.Build.0 = Debug|Any CPU
+		{BF287B8B-559D-4B5D-95AD-1238F51FBCEB}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{BF287B8B-559D-4B5D-95AD-1238F51FBCEB}.Debug|x86.Build.0 = Debug|Any CPU
+		{BF287B8B-559D-4B5D-95AD-1238F51FBCEB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BF287B8B-559D-4B5D-95AD-1238F51FBCEB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BF287B8B-559D-4B5D-95AD-1238F51FBCEB}.Release|x64.ActiveCfg = Release|Any CPU
+		{BF287B8B-559D-4B5D-95AD-1238F51FBCEB}.Release|x64.Build.0 = Release|Any CPU
+		{BF287B8B-559D-4B5D-95AD-1238F51FBCEB}.Release|x86.ActiveCfg = Release|Any CPU
+		{BF287B8B-559D-4B5D-95AD-1238F51FBCEB}.Release|x86.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {82BDAD84-6FB0-4CB6-93CD-B1BD99BA170F}
+	EndGlobalSection
+EndGlobal

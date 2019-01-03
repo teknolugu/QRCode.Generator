@@ -1,0 +1,27 @@
+F:\Projects\WebBlock Final PRO\QRCode Generator\bin\Debug\QRCode Generator.exe.config
+F:\Projects\WebBlock Final PRO\QRCode Generator\bin\Debug\QRCode Generator.exe
+F:\Projects\WebBlock Final PRO\QRCode Generator\bin\Debug\QRCode Generator.pdb
+F:\Projects\WebBlock Final PRO\QRCode Generator\bin\Debug\QRCode Generator.xml
+F:\Projects\WebBlock Final PRO\QRCode Generator\bin\Debug\QRCoder.dll
+F:\Projects\WebBlock Final PRO\QRCode Generator\bin\Debug\UnityEngine.dll
+F:\Projects\WebBlock Final PRO\QRCode Generator\obj\Debug\QRCode Generator.vbprojAssemblyReference.cache
+F:\Projects\WebBlock Final PRO\QRCode Generator\obj\Debug\QRCode_Generator.Form1.resources
+F:\Projects\WebBlock Final PRO\QRCode Generator\obj\Debug\QRCode_Generator.Resources.resources
+F:\Projects\WebBlock Final PRO\QRCode Generator\obj\Debug\QRCode Generator.vbproj.GenerateResource.cache
+F:\Projects\WebBlock Final PRO\QRCode Generator\obj\Debug\QRCode Generator.vbproj.CoreCompileInputs.cache
+F:\Projects\WebBlock Final PRO\QRCode Generator\obj\Debug\QRCode Generator.vbproj.CopyComplete
+F:\Projects\WebBlock Final PRO\QRCode Generator\obj\Debug\QRCode Generator.exe
+F:\Projects\WebBlock Final PRO\QRCode Generator\obj\Debug\QRCode Generator.xml
+F:\Projects\WebBlock Final PRO\QRCode Generator\obj\Debug\QRCode Generator.pdb
+J:\Projects\WebBlock Final PRO\QRCode Generator\bin\Debug\QRCode Generator.exe.config
+J:\Projects\WebBlock Final PRO\QRCode Generator\bin\Debug\QRCode Generator.exe
+J:\Projects\WebBlock Final PRO\QRCode Generator\bin\Debug\QRCode Generator.pdb
+J:\Projects\WebBlock Final PRO\QRCode Generator\bin\Debug\QRCode Generator.xml
+J:\Projects\WebBlock Final PRO\QRCode Generator\obj\Debug\QRCode Generator.vbprojAssemblyReference.cache
+J:\Projects\WebBlock Final PRO\QRCode Generator\obj\Debug\QRCode_Generator.Form1.resources
+J:\Projects\WebBlock Final PRO\QRCode Generator\obj\Debug\QRCode_Generator.Resources.resources
+J:\Projects\WebBlock Final PRO\QRCode Generator\obj\Debug\QRCode Generator.vbproj.GenerateResource.cache
+J:\Projects\WebBlock Final PRO\QRCode Generator\obj\Debug\QRCode Generator.vbproj.CoreCompileInputs.cache
+J:\Projects\WebBlock Final PRO\QRCode Generator\obj\Debug\QRCode Generator.exe
+J:\Projects\WebBlock Final PRO\QRCode Generator\obj\Debug\QRCode Generator.xml
+J:\Projects\WebBlock Final PRO\QRCode Generator\obj\Debug\QRCode Generator.pdb

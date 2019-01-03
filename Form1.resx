@@ -1,0 +1,1193 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="PictQrCodeBackColor.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="Label8.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;IndonesianToolStripMenuItem.Name" xml:space="preserve">
+    <value>IndonesianToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;Label8.Parent" xml:space="preserve">
+    <value>MaterialPanel2</value>
+  </data>
+  <data name="&gt;&gt;LanguageToolStripMenuItem.Name" xml:space="preserve">
+    <value>LanguageToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;Label6.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="Label8.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="Label9.Location" type="System.Drawing.Point, System.Drawing">
+    <value>13, 17</value>
+  </data>
+  <data name="TxtImagePath.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Left, Right</value>
+  </data>
+  <data name="CheckUseImage.Location" type="System.Drawing.Point, System.Drawing">
+    <value>306, 55</value>
+  </data>
+  <data name="&gt;&gt;PictQRCode.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;CheckUseImage.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;MaterialPanel2.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;txtHeight.Parent" xml:space="preserve">
+    <value>MaterialPanel2</value>
+  </data>
+  <data name="LinkSettings.Text" xml:space="preserve">
+    <value>Settings</value>
+  </data>
+  <data name="ContactSupportToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>161, 22</value>
+  </data>
+  <data name="LinkSettings.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;EnglishToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;TxtQrBackColor.Parent" xml:space="preserve">
+    <value>MaterialPanel2</value>
+  </data>
+  <data name="BtnQrCodeBackColor.Text" xml:space="preserve">
+    <value>Browse Colors</value>
+  </data>
+  <data name="TxtImagePath.Size" type="System.Drawing.Size, System.Drawing">
+    <value>348, 24</value>
+  </data>
+  <data name="&gt;&gt;TxtData.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;PictQrCodeBackColor.Parent" xml:space="preserve">
+    <value>MaterialPanel2</value>
+  </data>
+  <data name="Label7.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="Label2.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="TxtData.Multiline" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="BtnBrowse.TabIndex" type="System.Int32, mscorlib">
+    <value>27</value>
+  </data>
+  <data name="&gt;&gt;Label7.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;PictQRCode.ZOrder" xml:space="preserve">
+    <value>16</value>
+  </data>
+  <data name="CheckUseImage.Size" type="System.Drawing.Size, System.Drawing">
+    <value>90, 19</value>
+  </data>
+  <data name="BtnQrCodeColor.TabIndex" type="System.Int32, mscorlib">
+    <value>29</value>
+  </data>
+  <data name="&gt;&gt;txtHeight.Type" xml:space="preserve">
+    <value>MyComponents.LollipopTextBox, MyComponents, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="TxtQrCodeColor.Text" xml:space="preserve">
+    <value>#000</value>
+  </data>
+  <data name="TxtQrCodeColor.Location" type="System.Drawing.Point, System.Drawing">
+    <value>353, 239</value>
+  </data>
+  <data name="TxtImagePath.Location" type="System.Drawing.Point, System.Drawing">
+    <value>306, 109</value>
+  </data>
+  <data name="CheckUseImage.Text" xml:space="preserve">
+    <value>Use Image</value>
+  </data>
+  <data name="Label3.Text" xml:space="preserve">
+    <value>QRCode background color :</value>
+  </data>
+  <data name="Label8.TabIndex" type="System.Int32, mscorlib">
+    <value>24</value>
+  </data>
+  <data name="Label5.Text" xml:space="preserve">
+    <value>QRCode Image Size :</value>
+  </data>
+  <data name="Label1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>15, 324</value>
+  </data>
+  <data name="&gt;&gt;LinkHelp.Name" xml:space="preserve">
+    <value>LinkHelp</value>
+  </data>
+  <data name="&gt;&gt;CheckUseImage.Name" xml:space="preserve">
+    <value>CheckUseImage</value>
+  </data>
+  <data name="&gt;&gt;LinkSettings.Parent" xml:space="preserve">
+    <value>MaterialPanel3</value>
+  </data>
+  <data name="PictQRCode.Size" type="System.Drawing.Size, System.Drawing">
+    <value>261, 255</value>
+  </data>
+  <data name="&gt;&gt;Label2.ZOrder" xml:space="preserve">
+    <value>20</value>
+  </data>
+  <data name="&gt;&gt;BtnGenerate.Type" xml:space="preserve">
+    <value>MyComponents.LollipopButton, MyComponents, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="Label9.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;txtHeight.ZOrder" xml:space="preserve">
+    <value>12</value>
+  </data>
+  <data name="&gt;&gt;BtnGenerate.Parent" xml:space="preserve">
+    <value>MaterialPanel2</value>
+  </data>
+  <data name="TxtData.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 9pt</value>
+  </data>
+  <data name="Label5.TabIndex" type="System.Int32, mscorlib">
+    <value>17</value>
+  </data>
+  <data name="&gt;&gt;Label1.Name" xml:space="preserve">
+    <value>Label1</value>
+  </data>
+  <data name="SettingsContextMenu.Size" type="System.Drawing.Size, System.Drawing">
+    <value>127, 26</value>
+  </data>
+  <data name="&gt;&gt;LinkSettings.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="BtnBrowse.Size" type="System.Drawing.Size, System.Drawing">
+    <value>52, 24</value>
+  </data>
+  <data name="Label8.Size" type="System.Drawing.Size, System.Drawing">
+    <value>47, 15</value>
+  </data>
+  <data name="&gt;&gt;LinkSettings.Name" xml:space="preserve">
+    <value>LinkSettings</value>
+  </data>
+  <data name="LinkSave.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Right</value>
+  </data>
+  <data name="&gt;&gt;Label9.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;TxtQrCodeColor.Name" xml:space="preserve">
+    <value>TxtQrCodeColor</value>
+  </data>
+  <data name="&gt;&gt;Label8.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="LanguageToolStripMenuItem.Text" xml:space="preserve">
+    <value>Language</value>
+  </data>
+  <data name="$this.Icon" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        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
+        g2sAAAAASUVORK5CYII=
+</value>
+  </data>
+  <data name="&gt;&gt;BtnGenerate.Name" xml:space="preserve">
+    <value>BtnGenerate</value>
+  </data>
+  <data name="&gt;&gt;ClrDialog.Name" xml:space="preserve">
+    <value>ClrDialog</value>
+  </data>
+  <data name="&gt;&gt;TxtQrBackColor.Type" xml:space="preserve">
+    <value>MyComponents.LollipopTextBox, MyComponents, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="Label2.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;PictQrCodeColor.Parent" xml:space="preserve">
+    <value>MaterialPanel2</value>
+  </data>
+  <data name="BtnBrowse.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Right</value>
+  </data>
+  <data name="TxtImagePath.TabIndex" type="System.Int32, mscorlib">
+    <value>26</value>
+  </data>
+  <data name="Label7.Size" type="System.Drawing.Size, System.Drawing">
+    <value>122, 15</value>
+  </data>
+  <data name="Label6.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;BtnGenerate.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="txtWidth.Location" type="System.Drawing.Point, System.Drawing">
+    <value>306, 177</value>
+  </data>
+  <data name="&gt;&gt;Label3.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Label4.Name" xml:space="preserve">
+    <value>Label4</value>
+  </data>
+  <data name="PictQrCodeColor.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="&gt;&gt;txtHeight.Name" xml:space="preserve">
+    <value>txtHeight</value>
+  </data>
+  <data name="PictQrCodeColor.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="TxtData.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="BtnGenerate.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Bottom, Left, Right</value>
+  </data>
+  <data name="Label1.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;txtWidth.Name" xml:space="preserve">
+    <value>txtWidth</value>
+  </data>
+  <data name="&gt;&gt;LinkSave.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;PictQrCodeColor.ZOrder" xml:space="preserve">
+    <value>19</value>
+  </data>
+  <data name="&gt;&gt;LinkSettings.Type" xml:space="preserve">
+    <value>MetroFramework.Controls.MetroLink, MetroFramework, Version=1.4.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
+  </data>
+  <data name="Label9.Text" xml:space="preserve">
+    <value>QRCode Generator By Arfan</value>
+  </data>
+  <data name="ContactSupportToolStripMenuItem.Text" xml:space="preserve">
+    <value>Contact Support</value>
+  </data>
+  <data name="&gt;&gt;ClrDialog.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ColorDialog, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Label6.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="PictQrCodeColor.Location" type="System.Drawing.Point, System.Drawing">
+    <value>306, 239</value>
+  </data>
+  <data name="&gt;&gt;BtnBrowse.Name" xml:space="preserve">
+    <value>BtnBrowse</value>
+  </data>
+  <data name="&gt;&gt;txtWidth.ZOrder" xml:space="preserve">
+    <value>13</value>
+  </data>
+  <data name="Label8.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI Semilight, 9pt</value>
+  </data>
+  <data name="&gt;&gt;LanguageToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;LinkSave.Parent" xml:space="preserve">
+    <value>MaterialPanel2</value>
+  </data>
+  <data name="&gt;&gt;MaterialPanel2.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="LinkSave.Text" xml:space="preserve">
+    <value>Save</value>
+  </data>
+  <data name="&gt;&gt;TxtQrCodeColor.ZOrder" xml:space="preserve">
+    <value>17</value>
+  </data>
+  <data name="&gt;&gt;BtnQrCodeBackColor.Parent" xml:space="preserve">
+    <value>MaterialPanel2</value>
+  </data>
+  <data name="BtnGenerate.TabIndex" type="System.Int32, mscorlib">
+    <value>31</value>
+  </data>
+  <data name="&gt;&gt;txtWidth.Parent" xml:space="preserve">
+    <value>MaterialPanel2</value>
+  </data>
+  <data name="LinkSave.ImageAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="AboutToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>161, 22</value>
+  </data>
+  <data name="Label3.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="BtnBrowse.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;Label7.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="MaterialPanel3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>-2, -3</value>
+  </data>
+  <data name="&gt;&gt;PictQrCodeBackColor.Name" xml:space="preserve">
+    <value>PictQrCodeBackColor</value>
+  </data>
+  <data name="PictQRCode.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="Label2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>87, 15</value>
+  </data>
+  <data name="&gt;&gt;LinkSave.Type" xml:space="preserve">
+    <value>MetroFramework.Controls.MetroLink, MetroFramework, Version=1.4.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
+  </data>
+  <data name="LinkHelp.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;Label1.ZOrder" xml:space="preserve">
+    <value>11</value>
+  </data>
+  <data name="&gt;&gt;Label4.Parent" xml:space="preserve">
+    <value>MaterialPanel2</value>
+  </data>
+  <data name="LinkHelp.Text" xml:space="preserve">
+    <value>Help</value>
+  </data>
+  <data name="MaterialPanel2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>15, 70</value>
+  </data>
+  <data name="BtnBrowse.Text" xml:space="preserve">
+    <value>...</value>
+  </data>
+  <data name="&gt;&gt;TxtImagePath.Name" xml:space="preserve">
+    <value>TxtImagePath</value>
+  </data>
+  <data name="&gt;&gt;Label3.Name" xml:space="preserve">
+    <value>Label3</value>
+  </data>
+  <data name="Label1.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="Label9.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="LinkHelp.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Right</value>
+  </data>
+  <data name="&gt;&gt;Label2.Parent" xml:space="preserve">
+    <value>MaterialPanel2</value>
+  </data>
+  <data name="Label3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>486, 219</value>
+  </data>
+  <data name="Label2.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="MaterialPanel3.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Left, Right</value>
+  </data>
+  <data name="Label6.TabIndex" type="System.Int32, mscorlib">
+    <value>20</value>
+  </data>
+  <data name="Label4.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI Semibold, 11.25pt, style=Bold</value>
+  </data>
+  <data name="&gt;&gt;HelpContextMenu.Name" xml:space="preserve">
+    <value>HelpContextMenu</value>
+  </data>
+  <data name="&gt;&gt;Label2.Name" xml:space="preserve">
+    <value>Label2</value>
+  </data>
+  <data name="txtWidth.TabIndex" type="System.Int32, mscorlib">
+    <value>18</value>
+  </data>
+  <data name="LinkHelp.ImageAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="&gt;&gt;AboutToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ContactSupportToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;LinkHelp.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="Label4.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;MaterialPanel3.Type" xml:space="preserve">
+    <value>MyComponents.MaterialPanel, MyComponents, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="Label7.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;TxtImagePath.Type" xml:space="preserve">
+    <value>MyComponents.LollipopTextBox, MyComponents, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="BtnGenerate.Location" type="System.Drawing.Point, System.Drawing">
+    <value>18, 477</value>
+  </data>
+  <data name="LinkSave.Size" type="System.Drawing.Size, System.Drawing">
+    <value>78, 23</value>
+  </data>
+  <data name="&gt;&gt;Label9.Parent" xml:space="preserve">
+    <value>MaterialPanel3</value>
+  </data>
+  <data name="TxtQrCodeColor.TabIndex" type="System.Int32, mscorlib">
+    <value>15</value>
+  </data>
+  <data name="Label3.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 9pt</value>
+  </data>
+  <data name="&gt;&gt;PictQrCodeBackColor.ZOrder" xml:space="preserve">
+    <value>22</value>
+  </data>
+  <data name="&gt;&gt;TxtData.Name" xml:space="preserve">
+    <value>TxtData</value>
+  </data>
+  <data name="$this.StartPosition" type="System.Windows.Forms.FormStartPosition, System.Windows.Forms">
+    <value>CenterScreen</value>
+  </data>
+  <data name="BtnQrCodeBackColor.Location" type="System.Drawing.Point, System.Drawing">
+    <value>489, 269</value>
+  </data>
+  <data name="TxtData.Location" type="System.Drawing.Point, System.Drawing">
+    <value>18, 354</value>
+  </data>
+  <data name="Label9.Size" type="System.Drawing.Size, System.Drawing">
+    <value>233, 21</value>
+  </data>
+  <data name="PictQrCodeBackColor.TabIndex" type="System.Int32, mscorlib">
+    <value>9</value>
+  </data>
+  <data name="TxtQrBackColor.Location" type="System.Drawing.Point, System.Drawing">
+    <value>536, 239</value>
+  </data>
+  <data name="PictQrCodeBackColor.Size" type="System.Drawing.Size, System.Drawing">
+    <value>41, 24</value>
+  </data>
+  <data name="Label7.Text" xml:space="preserve">
+    <value>Add an image or logo</value>
+  </data>
+  <data name="&gt;&gt;LinkHelp.Parent" xml:space="preserve">
+    <value>MaterialPanel3</value>
+  </data>
+  <data name="LinkSave.Location" type="System.Drawing.Point, System.Drawing">
+    <value>669, 9</value>
+  </data>
+  <data name="&gt;&gt;BtnQrCodeColor.Type" xml:space="preserve">
+    <value>MyComponents.LollipopButton, MyComponents, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;MaterialPanel2.Type" xml:space="preserve">
+    <value>MyComponents.MaterialPanel, MyComponents, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="LinkSettings.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Right</value>
+  </data>
+  <data name="TxtData.Size" type="System.Drawing.Size, System.Drawing">
+    <value>706, 111</value>
+  </data>
+  <data name="Label7.Location" type="System.Drawing.Point, System.Drawing">
+    <value>303, 87</value>
+  </data>
+  <data name="BtnQrCodeColor.Size" type="System.Drawing.Size, System.Drawing">
+    <value>123, 25</value>
+  </data>
+  <data name="&gt;&gt;TxtData.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="EnglishToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>132, 22</value>
+  </data>
+  <data name="MaterialPanel2.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Bottom, Left, Right</value>
+  </data>
+  <data name="&gt;&gt;AboutToolStripMenuItem.Name" xml:space="preserve">
+    <value>AboutToolStripMenuItem</value>
+  </data>
+  <data name="TxtQrCodeColor.Size" type="System.Drawing.Size, System.Drawing">
+    <value>77, 24</value>
+  </data>
+  <data name="&gt;&gt;MaterialPanel3.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="Label8.Text" xml:space="preserve">
+    <value>Preview</value>
+  </data>
+  <data name="&gt;&gt;Label7.Name" xml:space="preserve">
+    <value>Label7</value>
+  </data>
+  <data name="BtnBrowse.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="&gt;&gt;TxtQrBackColor.Name" xml:space="preserve">
+    <value>TxtQrBackColor</value>
+  </data>
+  <data name="BtnGenerate.Size" type="System.Drawing.Size, System.Drawing">
+    <value>706, 31</value>
+  </data>
+  <data name="&gt;&gt;TxtQrCodeColor.Parent" xml:space="preserve">
+    <value>MaterialPanel2</value>
+  </data>
+  <data name="Label5.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 9pt</value>
+  </data>
+  <data name="&gt;&gt;ContactSupportToolStripMenuItem.Name" xml:space="preserve">
+    <value>ContactSupportToolStripMenuItem</value>
+  </data>
+  <data name="PictQRCode.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>QRcode generator by arfan</value>
+  </data>
+  <data name="MaterialPanel3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>785, 50</value>
+  </data>
+  <data name="&gt;&gt;Label7.Parent" xml:space="preserve">
+    <value>MaterialPanel2</value>
+  </data>
+  <data name="&gt;&gt;TxtQrBackColor.ZOrder" xml:space="preserve">
+    <value>15</value>
+  </data>
+  <data name="Label9.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Century Gothic, 12pt</value>
+  </data>
+  <data name="&gt;&gt;Label9.Name" xml:space="preserve">
+    <value>Label9</value>
+  </data>
+  <data name="&gt;&gt;Label1.Parent" xml:space="preserve">
+    <value>MaterialPanel2</value>
+  </data>
+  <data name="&gt;&gt;TxtImagePath.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="Label2.Text" xml:space="preserve">
+    <value>QRCode color :</value>
+  </data>
+  <data name="&gt;&gt;MaterialPanel3.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;BtnQrCodeBackColor.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;BtnQrCodeBackColor.Name" xml:space="preserve">
+    <value>BtnQrCodeBackColor</value>
+  </data>
+  <data name="&gt;&gt;HelpContextMenu.Type" xml:space="preserve">
+    <value>MaterialSkin.Controls.MaterialContextMenuStrip, MaterialSkin, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;Label4.ZOrder" xml:space="preserve">
+    <value>18</value>
+  </data>
+  <data name="CheckUseImage.TabIndex" type="System.Int32, mscorlib">
+    <value>32</value>
+  </data>
+  <data name="BtnBrowse.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 9pt</value>
+  </data>
+  <data name="Label2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>303, 219</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Form, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;LinkSave.Name" xml:space="preserve">
+    <value>LinkSave</value>
+  </data>
+  <data name="&gt;&gt;Label9.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="AboutToolStripMenuItem.Text" xml:space="preserve">
+    <value>About</value>
+  </data>
+  <data name="Label5.Size" type="System.Drawing.Size, System.Drawing">
+    <value>116, 15</value>
+  </data>
+  <data name="Label7.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI Semibold, 9pt, style=Bold</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>777, 626</value>
+  </data>
+  <data name="Label1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>63, 17</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>Form1</value>
+  </data>
+  <data name="Label5.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;MaterialPanel3.Name" xml:space="preserve">
+    <value>MaterialPanel3</value>
+  </data>
+  <data name="PictQrCodeColor.Size" type="System.Drawing.Size, System.Drawing">
+    <value>41, 24</value>
+  </data>
+  <data name="&gt;&gt;Label6.Name" xml:space="preserve">
+    <value>Label6</value>
+  </data>
+  <data name="&gt;&gt;BtnBrowse.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="IndonesianToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>132, 22</value>
+  </data>
+  <data name="&gt;&gt;Label8.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Label1.Text" xml:space="preserve">
+    <value>Data text:</value>
+  </data>
+  <data name="CheckUseImage.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;TxtData.Parent" xml:space="preserve">
+    <value>MaterialPanel2</value>
+  </data>
+  <data name="&gt;&gt;Label5.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Label4.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Label4.Location" type="System.Drawing.Point, System.Drawing">
+    <value>302, 12</value>
+  </data>
+  <data name="HelpContextMenu.Size" type="System.Drawing.Size, System.Drawing">
+    <value>162, 48</value>
+  </data>
+  <data name="Label6.Size" type="System.Drawing.Size, System.Drawing">
+    <value>14, 15</value>
+  </data>
+  <data name="BtnGenerate.Text" xml:space="preserve">
+    <value>Generate</value>
+  </data>
+  <data name="txtHeight.TabIndex" type="System.Int32, mscorlib">
+    <value>19</value>
+  </data>
+  <data name="&gt;&gt;MaterialPanel2.Name" xml:space="preserve">
+    <value>MaterialPanel2</value>
+  </data>
+  <data name="TxtQrBackColor.TabIndex" type="System.Int32, mscorlib">
+    <value>16</value>
+  </data>
+  <data name="EnglishToolStripMenuItem.Text" xml:space="preserve">
+    <value>English</value>
+  </data>
+  <data name="&gt;&gt;Label8.Name" xml:space="preserve">
+    <value>Label8</value>
+  </data>
+  <data name="txtWidth.Text" xml:space="preserve">
+    <value>512</value>
+  </data>
+  <data name="&gt;&gt;TxtImagePath.Parent" xml:space="preserve">
+    <value>MaterialPanel2</value>
+  </data>
+  <data name="&gt;&gt;SettingsContextMenu.Type" xml:space="preserve">
+    <value>MaterialSkin.Controls.MaterialContextMenuStrip, MaterialSkin, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;Label5.Parent" xml:space="preserve">
+    <value>MaterialPanel2</value>
+  </data>
+  <data name="&gt;&gt;BtnQrCodeBackColor.Type" xml:space="preserve">
+    <value>MyComponents.LollipopButton, MyComponents, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="Label6.Location" type="System.Drawing.Point, System.Drawing">
+    <value>385, 177</value>
+  </data>
+  <data name="&gt;&gt;Label1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Label5.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;IndonesianToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="txtHeight.Text" xml:space="preserve">
+    <value>512</value>
+  </data>
+  <data name="Label7.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;Label2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Label3.ZOrder" xml:space="preserve">
+    <value>21</value>
+  </data>
+  <data name="&gt;&gt;BtnQrCodeColor.Name" xml:space="preserve">
+    <value>BtnQrCodeColor</value>
+  </data>
+  <data name="PictQrCodeBackColor.Location" type="System.Drawing.Point, System.Drawing">
+    <value>489, 239</value>
+  </data>
+  <data name="BtnBrowse.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>6, 13</value>
+  </data>
+  <data name="Label1.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 9.75pt</value>
+  </data>
+  <data name="&gt;&gt;SettingsContextMenu.Name" xml:space="preserve">
+    <value>SettingsContextMenu</value>
+  </data>
+  <data name="Label5.Location" type="System.Drawing.Point, System.Drawing">
+    <value>303, 149</value>
+  </data>
+  <data name="&gt;&gt;PictQrCodeBackColor.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;BtnQrCodeColor.Parent" xml:space="preserve">
+    <value>MaterialPanel2</value>
+  </data>
+  <data name="LinkSettings.Location" type="System.Drawing.Point, System.Drawing">
+    <value>590, 15</value>
+  </data>
+  <data name="BtnBrowse.Location" type="System.Drawing.Point, System.Drawing">
+    <value>672, 109</value>
+  </data>
+  <data name="Label4.TabIndex" type="System.Int32, mscorlib">
+    <value>14</value>
+  </data>
+  <data name="MaterialPanel3.TabIndex" type="System.Int32, mscorlib">
+    <value>16</value>
+  </data>
+  <data name="LinkHelp.Location" type="System.Drawing.Point, System.Drawing">
+    <value>698, 15</value>
+  </data>
+  <data name="Label6.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="Label8.Location" type="System.Drawing.Point, System.Drawing">
+    <value>15, 14</value>
+  </data>
+  <data name="&gt;&gt;txtWidth.Type" xml:space="preserve">
+    <value>MyComponents.LollipopTextBox, MyComponents, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;BtnBrowse.Parent" xml:space="preserve">
+    <value>MaterialPanel2</value>
+  </data>
+  <data name="Label6.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI Semibold, 9pt, style=Bold</value>
+  </data>
+  <data name="&gt;&gt;EnglishToolStripMenuItem.Name" xml:space="preserve">
+    <value>EnglishToolStripMenuItem</value>
+  </data>
+  <data name="Label4.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="Label9.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;Label3.Parent" xml:space="preserve">
+    <value>MaterialPanel2</value>
+  </data>
+  <data name="&gt;&gt;BtnQrCodeColor.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="BtnQrCodeBackColor.TabIndex" type="System.Int32, mscorlib">
+    <value>30</value>
+  </data>
+  <data name="BtnQrCodeColor.Text" xml:space="preserve">
+    <value>Browse Colors</value>
+  </data>
+  <data name="LinkHelp.Size" type="System.Drawing.Size, System.Drawing">
+    <value>81, 23</value>
+  </data>
+  <data name="txtHeight.Size" type="System.Drawing.Size, System.Drawing">
+    <value>61, 24</value>
+  </data>
+  <data name="&gt;&gt;TxtQrCodeColor.Type" xml:space="preserve">
+    <value>MyComponents.LollipopTextBox, MyComponents, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="txtHeight.Location" type="System.Drawing.Point, System.Drawing">
+    <value>421, 177</value>
+  </data>
+  <data name="Label4.Text" xml:space="preserve">
+    <value>QR Settings</value>
+  </data>
+  <data name="&gt;&gt;CheckUseImage.Type" xml:space="preserve">
+    <value>MetroFramework.Controls.MetroCheckBox, MetroFramework, Version=1.4.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
+  </data>
+  <data name="TxtData.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Bottom, Left, Right</value>
+  </data>
+  <data name="Label4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>87, 20</value>
+  </data>
+  <data name="txtWidth.Size" type="System.Drawing.Size, System.Drawing">
+    <value>61, 24</value>
+  </data>
+  <data name="Label3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>154, 15</value>
+  </data>
+  <data name="&gt;&gt;PictQRCode.Name" xml:space="preserve">
+    <value>PictQRCode</value>
+  </data>
+  <data name="TxtQrBackColor.Size" type="System.Drawing.Size, System.Drawing">
+    <value>77, 24</value>
+  </data>
+  <data name="BtnQrCodeColor.Location" type="System.Drawing.Point, System.Drawing">
+    <value>306, 269</value>
+  </data>
+  <data name="LanguageToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>126, 22</value>
+  </data>
+  <data name="&gt;&gt;CheckUseImage.Parent" xml:space="preserve">
+    <value>MaterialPanel2</value>
+  </data>
+  <data name="PictQRCode.SizeMode" type="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms">
+    <value>StretchImage</value>
+  </data>
+  <data name="LinkSettings.Size" type="System.Drawing.Size, System.Drawing">
+    <value>102, 23</value>
+  </data>
+  <data name="MaterialPanel2.TabIndex" type="System.Int32, mscorlib">
+    <value>15</value>
+  </data>
+  <data name="PictQRCode.Location" type="System.Drawing.Point, System.Drawing">
+    <value>15, 40</value>
+  </data>
+  <data name="&gt;&gt;PictQRCode.Parent" xml:space="preserve">
+    <value>MaterialPanel2</value>
+  </data>
+  <data name="&gt;&gt;BtnBrowse.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="Label2.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 9pt</value>
+  </data>
+  <data name="Label3.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="IndonesianToolStripMenuItem.Text" xml:space="preserve">
+    <value>Indonesian</value>
+  </data>
+  <data name="MaterialPanel2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>750, 534</value>
+  </data>
+  <data name="Label1.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="LinkSave.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;Label5.Name" xml:space="preserve">
+    <value>Label5</value>
+  </data>
+  <data name="&gt;&gt;Label5.ZOrder" xml:space="preserve">
+    <value>14</value>
+  </data>
+  <data name="BtnQrCodeBackColor.Size" type="System.Drawing.Size, System.Drawing">
+    <value>124, 25</value>
+  </data>
+  <data name="LinkSettings.ImageAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="Label6.Text" xml:space="preserve">
+    <value>X</value>
+  </data>
+  <data name="TxtQrBackColor.Text" xml:space="preserve">
+    <value>#FFF</value>
+  </data>
+  <data name="&gt;&gt;PictQrCodeColor.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Label3.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="&gt;&gt;LinkHelp.Type" xml:space="preserve">
+    <value>MetroFramework.Controls.MetroLink, MetroFramework, Version=1.4.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a</value>
+  </data>
+  <data name="Label7.TabIndex" type="System.Int32, mscorlib">
+    <value>28</value>
+  </data>
+  <data name="&gt;&gt;PictQrCodeColor.Name" xml:space="preserve">
+    <value>PictQrCodeColor</value>
+  </data>
+  <data name="&gt;&gt;Label6.Parent" xml:space="preserve">
+    <value>MaterialPanel2</value>
+  </data>
+  <data name="$this.MinimumSize" type="System.Drawing.Size, System.Drawing">
+    <value>793, 624</value>
+  </data>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="$this.TrayHeight" type="System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>25</value>
+  </metadata>
+  <metadata name="SettingsContextMenu.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>119, 17</value>
+  </metadata>
+  <metadata name="ClrDialog.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 17</value>
+  </metadata>
+  <metadata name="HelpContextMenu.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>288, 17</value>
+  </metadata>
+</root>
