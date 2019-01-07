@@ -1,5 +1,5 @@
 ﻿Imports QRCoder
-Public Class Form1
+Public Class Main
     Public myColorPicker As New ColorDialog
     Dim QRGenerator As New DataGenerator
     Private Sub Button1_Click(sender As Object, e As EventArgs) Handles BtnGenerate.Click
@@ -48,6 +48,11 @@ Public Class Form1
         End Select
         My.Settings.FirstLaunch = False
         My.Settings.Save()
+        If My.Settings.Dark Then
+            ThemeManager.SetTheme(Theme.Dark)
+        Else
+            ThemeManager.SetTheme(Theme.Light)
+        End If
     End Sub
     Private Sub TxtData_TextChanged()
         CreateQR()
@@ -177,5 +182,17 @@ Public Class Form1
             BtnBrowse.Enabled = False
             TxtImagePath.Text = ""
         End If
+    End Sub
+
+    Private Sub DarkToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles DarkToolStripMenuItem.Click
+        ThemeManager.SetTheme(Theme.Dark)
+        My.Settings.Dark = True
+        My.Settings.Save()
+    End Sub
+
+    Private Sub LightToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles LightToolStripMenuItem.Click
+        ThemeManager.SetTheme(Theme.Light)
+        My.Settings.Dark = False
+        My.Settings.Save()
     End Sub
 End Class

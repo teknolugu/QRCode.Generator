@@ -25,3 +25,19 @@ J:\Projects\WebBlock Final PRO\QRCode Generator\obj\Debug\QRCode Generator.vbpro
 J:\Projects\WebBlock Final PRO\QRCode Generator\obj\Debug\QRCode Generator.exe
 J:\Projects\WebBlock Final PRO\QRCode Generator\obj\Debug\QRCode Generator.xml
 J:\Projects\WebBlock Final PRO\QRCode Generator\obj\Debug\QRCode Generator.pdb
+D:\Projects\QRCode.Generator\bin\Debug\QRCode Generator.exe.config
+D:\Projects\QRCode.Generator\bin\Debug\QRCode Generator.exe
+D:\Projects\QRCode.Generator\bin\Debug\QRCode Generator.pdb
+D:\Projects\QRCode.Generator\bin\Debug\QRCode Generator.xml
+D:\Projects\QRCode.Generator\bin\Debug\id\QRCode Generator.resources.dll
+D:\Projects\QRCode.Generator\obj\Debug\QRCode Generator.vbprojAssemblyReference.cache
+D:\Projects\QRCode.Generator\obj\Debug\QRCode_Generator.About.resources
+D:\Projects\QRCode.Generator\obj\Debug\QRCode_Generator.Main.resources
+D:\Projects\QRCode.Generator\obj\Debug\QRCode_Generator.Resources.resources
+D:\Projects\QRCode.Generator\obj\Debug\QRCode_Generator.Main.id.resources
+D:\Projects\QRCode.Generator\obj\Debug\QRCode Generator.vbproj.GenerateResource.cache
+D:\Projects\QRCode.Generator\obj\Debug\QRCode Generator.vbproj.CoreCompileInputs.cache
+D:\Projects\QRCode.Generator\obj\Debug\id\QRCode Generator.resources.dll
+D:\Projects\QRCode.Generator\obj\Debug\QRCode Generator.exe
+D:\Projects\QRCode.Generator\obj\Debug\QRCode Generator.xml
+D:\Projects\QRCode.Generator\obj\Debug\QRCode Generator.pdb
