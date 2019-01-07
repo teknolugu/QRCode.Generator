@@ -27,27 +27,27 @@ Partial Class Form1
         Me.TxtData = New System.Windows.Forms.TextBox()
         Me.Label2 = New System.Windows.Forms.Label()
         Me.Label3 = New System.Windows.Forms.Label()
-        Me.MaterialPanel2 = New MyComponents.MaterialPanel()
+        Me.MaterialPanel2 = New MaterialFramework.MaterialPanel()
         Me.CheckUseImage = New MetroFramework.Controls.MetroCheckBox()
-        Me.BtnGenerate = New MyComponents.LollipopButton()
+        Me.BtnGenerate = New MaterialFramework.LollipopButton()
         Me.LinkSave = New MetroFramework.Controls.MetroLink()
-        Me.BtnQrCodeBackColor = New MyComponents.LollipopButton()
-        Me.BtnQrCodeColor = New MyComponents.LollipopButton()
+        Me.BtnQrCodeBackColor = New MaterialFramework.LollipopButton()
+        Me.BtnQrCodeColor = New MaterialFramework.LollipopButton()
         Me.Label7 = New System.Windows.Forms.Label()
         Me.BtnBrowse = New System.Windows.Forms.Button()
-        Me.TxtImagePath = New MyComponents.LollipopTextBox()
+        Me.TxtImagePath = New MaterialFramework.LollipopTextBox()
         Me.Label8 = New System.Windows.Forms.Label()
         Me.Label6 = New System.Windows.Forms.Label()
-        Me.txtHeight = New MyComponents.LollipopTextBox()
-        Me.txtWidth = New MyComponents.LollipopTextBox()
+        Me.txtHeight = New MaterialFramework.LollipopTextBox()
+        Me.txtWidth = New MaterialFramework.LollipopTextBox()
         Me.Label5 = New System.Windows.Forms.Label()
-        Me.TxtQrBackColor = New MyComponents.LollipopTextBox()
+        Me.TxtQrBackColor = New MaterialFramework.LollipopTextBox()
         Me.PictQRCode = New System.Windows.Forms.PictureBox()
-        Me.TxtQrCodeColor = New MyComponents.LollipopTextBox()
+        Me.TxtQrCodeColor = New MaterialFramework.LollipopTextBox()
         Me.Label4 = New System.Windows.Forms.Label()
         Me.PictQrCodeColor = New System.Windows.Forms.PictureBox()
         Me.PictQrCodeBackColor = New System.Windows.Forms.PictureBox()
-        Me.MaterialPanel3 = New MyComponents.MaterialPanel()
+        Me.MaterialPanel3 = New MaterialFramework.MaterialPanel()
         Me.LinkSettings = New MetroFramework.Controls.MetroLink()
         Me.Label9 = New System.Windows.Forms.Label()
         Me.LinkHelp = New MetroFramework.Controls.MetroLink()
@@ -374,22 +374,22 @@ Partial Class Form1
     Friend WithEvents Label3 As Label
     Friend WithEvents PictQrCodeColor As PictureBox
     Friend WithEvents PictQrCodeBackColor As PictureBox
-    Friend WithEvents MaterialPanel2 As MyComponents.MaterialPanel
-    Friend WithEvents MaterialPanel3 As MyComponents.MaterialPanel
+    Friend WithEvents MaterialPanel2 As MaterialFramework.MaterialPanel
+    Friend WithEvents MaterialPanel3 As MaterialFramework.MaterialPanel
     Friend WithEvents Label4 As Label
-    Friend WithEvents TxtQrBackColor As MyComponents.LollipopTextBox
-    Friend WithEvents TxtQrCodeColor As MyComponents.LollipopTextBox
-    Friend WithEvents txtWidth As MyComponents.LollipopTextBox
+    Friend WithEvents TxtQrBackColor As MaterialFramework.LollipopTextBox
+    Friend WithEvents TxtQrCodeColor As MaterialFramework.LollipopTextBox
+    Friend WithEvents txtWidth As MaterialFramework.LollipopTextBox
     Friend WithEvents Label5 As Label
     Friend WithEvents Label6 As Label
-    Friend WithEvents txtHeight As MyComponents.LollipopTextBox
+    Friend WithEvents txtHeight As MaterialFramework.LollipopTextBox
     Friend WithEvents Label7 As Label
     Friend WithEvents BtnBrowse As Button
-    Friend WithEvents TxtImagePath As MyComponents.LollipopTextBox
+    Friend WithEvents TxtImagePath As MaterialFramework.LollipopTextBox
     Friend WithEvents Label8 As Label
-    Friend WithEvents BtnQrCodeColor As MyComponents.LollipopButton
-    Friend WithEvents BtnGenerate As MyComponents.LollipopButton
-    Friend WithEvents BtnQrCodeBackColor As MyComponents.LollipopButton
+    Friend WithEvents BtnQrCodeColor As MaterialFramework.LollipopButton
+    Friend WithEvents BtnGenerate As MaterialFramework.LollipopButton
+    Friend WithEvents BtnQrCodeBackColor As MaterialFramework.LollipopButton
     Friend WithEvents ClrDialog As ColorDialog
     Friend WithEvents LinkHelp As MetroFramework.Controls.MetroLink
     Friend WithEvents Label9 As Label

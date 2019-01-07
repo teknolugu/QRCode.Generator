@@ -56,6 +56,9 @@
     <ApplicationIcon>QR.ico</ApplicationIcon>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="MaterialFramework">
+      <HintPath>..\MyComponents\bin\Release\MaterialFramework.dll</HintPath>
+    </Reference>
     <Reference Include="MaterialSkin">
       <HintPath>..\..\Webblock Internet Security\Webblock Internet Security\bin\Release\MaterialSkin.dll</HintPath>
     </Reference>
@@ -67,9 +70,6 @@
     </Reference>
     <Reference Include="MetroFramework.Fonts, Version=1.4.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a, processorArchitecture=MSIL">
       <HintPath>packages\MetroModernUI.1.4.0.0\lib\net\MetroFramework.Fonts.dll</HintPath>
-    </Reference>
-    <Reference Include="MyComponents">
-      <HintPath>..\..\Webblock Internet Security\Webblock Internet Security\bin\Release\MyComponents.dll</HintPath>
     </Reference>
     <Reference Include="QRCoder">
       <HintPath>..\packages\QRCoder.1.3.3\lib\net40\QRCoder.dll</HintPath>
