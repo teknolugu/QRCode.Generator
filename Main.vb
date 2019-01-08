@@ -143,7 +143,7 @@ Public Class Main
     Private Sub EnglishToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles EnglishToolStripMenuItem.Click
         My.Settings.Language = "English"
         My.Settings.Save()
-        MsgBox("You need to restart app to change the language", MsgBoxStyle.Information, "Settings will be applied after restarting app")
+        MsgBox("You need to restart app to change the language, Settings will be applied after restarting app", MsgBoxStyle.Information, "Settings Applied!")
     End Sub
 
     Private Sub Form1_FormClosing(sender As Object, e As FormClosingEventArgs) Handles MyBase.FormClosing

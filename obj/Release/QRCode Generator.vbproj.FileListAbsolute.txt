@@ -42,3 +42,19 @@ D:\Projects\WebBlock Final PRO\QRCode Generator\obj\Release\id\QRCode Generator.
 D:\Projects\WebBlock Final PRO\QRCode Generator\obj\Release\QRCode Generator.exe
 D:\Projects\WebBlock Final PRO\QRCode Generator\obj\Release\QRCode Generator.xml
 D:\Projects\WebBlock Final PRO\QRCode Generator\obj\Release\QRCode Generator.pdb
+D:\Projects\QRCode.Generator\bin\Release\QRCode Generator.exe.config
+D:\Projects\QRCode.Generator\bin\Release\QRCode Generator.exe
+D:\Projects\QRCode.Generator\bin\Release\QRCode Generator.pdb
+D:\Projects\QRCode.Generator\bin\Release\QRCode Generator.xml
+D:\Projects\QRCode.Generator\bin\Release\id\QRCode Generator.resources.dll
+D:\Projects\QRCode.Generator\obj\Release\QRCode Generator.vbprojAssemblyReference.cache
+D:\Projects\QRCode.Generator\obj\Release\QRCode_Generator.About.resources
+D:\Projects\QRCode.Generator\obj\Release\QRCode_Generator.Main.resources
+D:\Projects\QRCode.Generator\obj\Release\QRCode_Generator.Resources.resources
+D:\Projects\QRCode.Generator\obj\Release\QRCode_Generator.Main.id.resources
+D:\Projects\QRCode.Generator\obj\Release\QRCode Generator.vbproj.GenerateResource.cache
+D:\Projects\QRCode.Generator\obj\Release\QRCode Generator.vbproj.CoreCompileInputs.cache
+D:\Projects\QRCode.Generator\obj\Release\id\QRCode Generator.resources.dll
+D:\Projects\QRCode.Generator\obj\Release\QRCode Generator.exe
+D:\Projects\QRCode.Generator\obj\Release\QRCode Generator.xml
+D:\Projects\QRCode.Generator\obj\Release\QRCode Generator.pdb
